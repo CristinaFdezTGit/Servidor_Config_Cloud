@@ -5,6 +5,6 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://localhost:8761/eureka
-   server:
-     client:
+servicio:
+     cliente:
        url: http://servicio-personas/personas/lista
