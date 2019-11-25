@@ -6,4 +6,7 @@ eureka:
  client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-    
+ instance:
+    ip-address: 192.168.1.63   #10.2.4.25 -> ip del pc del curso, esta es la IP que va a usar el microservicio
+    prefer-ip-address: true
+    instance-id: 192.168.1.63:8001  #10.2.4.25:8001 - 
