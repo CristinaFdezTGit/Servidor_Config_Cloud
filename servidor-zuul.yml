@@ -18,6 +18,8 @@ zuul:
       servicio-vuelos: # Service to create as sample
         path: /vuelitos/** #path that will be intercepted
         serviceId: servicio-vuelos   
+  
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
       
 eureka:                  
   client:
