@@ -7,6 +7,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
  instance:
-    ip-address: 192.168.1.63  
+    ip-address: 192.168.1.64  
     prefer-ip-address: true
-    instance-id: 192.168.1.63:8001 
+    instance-id: 192.168.1.64:8001 
