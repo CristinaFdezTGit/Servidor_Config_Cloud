@@ -12,6 +12,9 @@ zuul:
       servicio-reservas: # Service to create as sample
         path: /reservas/** #path that will be intercepted
         serviceId: servicio-reservas  
+      servicio-hoteles: # Service to create as sample
+        path: /hoteles/** #path that will be intercepted
+        serviceId: servicio-hoteles    
       
 eureka:                  
   client:
