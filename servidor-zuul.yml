@@ -17,7 +17,10 @@ zuul:
         serviceId: servicio-hoteles
       servicio-vuelos: # Service to create as sample
         path: /vuelitos/** #path that will be intercepted
-        serviceId: servicio-vuelos   
+        serviceId: servicio-vuelos
+      servicio-reservas-nuevo: # Service to create as sample
+        path: /reservitas/** #path that will be intercepted
+        serviceId: servicio-reservas-nuevo  
   
   ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
       
